@@ -1,0 +1,9 @@
+# Project place file
+/Roblox Building Tools.rbxlx
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+
+# System files
+.DS_Store

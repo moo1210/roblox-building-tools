@@ -1,0 +1,37 @@
+{
+  "name": "Roblox Building Tools",
+  "tree": {
+    "$className": "DataModel",
+
+    "ServerScriptService": {
+      "RobloxBuildingToolsMainModule": {
+        "$path": "src/MainModule",
+        "Dependencies": {
+          "$className": "Folder",
+          "Roact" : {
+            "$path": "module/Roact/src"
+          },
+          "Rodux" : {
+            "$path": "module/Rodux/src"
+          },
+          "Roact-Rodux" : {
+            "$path": "module/Roact-Rodux/src"
+          }
+        }
+      }
+    },
+
+    "StarterPack": {
+      "RobloxBuildingTools": {
+        "$className": "Tool",
+        "$path": "src/LoaderTool"
+      }
+    },
+
+    "HttpService": {
+      "$properties": {
+        "HttpEnabled": true
+      }
+    }
+  }
+}
